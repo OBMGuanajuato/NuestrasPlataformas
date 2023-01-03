@@ -8,11 +8,22 @@ h1 {
 	margin-inline: auto;
 	display: flex;
 	flex-direction: column;
+	gap: 15px;
 }
 .media-button {
-	padding-inline: .5rem;
+	padding-inline: 20px;
 	outline: solid black;
 	display: grid;
 	grid-template-columns: 25% 1fr;
 	place-items: center;
+	border-radius: 100vmax;
+	box-shadow: 10px 10px hsl(0, 0%, 28%);
+	background-color: azure;
+}
+.media-button:hover{
+	transform: translate(7px, 7px);
+	box-shadow: 3px 3px hsl(0, 0%, 28%);
+}
+.media-button-img {
+	height: 100px;
 }
