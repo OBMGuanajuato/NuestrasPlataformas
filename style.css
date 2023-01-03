@@ -1,0 +1,18 @@
+h1 {
+	text-align: center;
+}
+
+
+.media-button-rack {
+	width: 80vw;
+	margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+}
+.media-button {
+	padding-inline: .5rem;
+	outline: solid black;
+	display: grid;
+	grid-template-columns: 25% 1fr;
+	place-items: center;
+}
