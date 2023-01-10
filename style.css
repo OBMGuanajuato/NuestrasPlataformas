@@ -16,6 +16,11 @@ h2 {
 }
 .logo-rack-img {
 	width: 50px;
+	box-shadow: 5px 5px hsl(0, 0%, 28%);
+}
+.logo-rack-img:hover{
+	transform: translate(3px, 3px);
+	box-shadow: 2px 2px hsl(0, 0%, 28%);
 }
 
 
@@ -28,7 +33,7 @@ h2 {
 }
 .media-button {
 	padding-inline: 20px;
-	outline: solid black;
+	outline: solid #002c5c;
 	display: grid;
 	grid-template-columns: 25% 1fr;
 	place-items: center;
@@ -39,7 +44,32 @@ h2 {
 .media-button:hover{
 	transform: translate(7px, 7px);
 	box-shadow: 3px 3px hsl(0, 0%, 28%);
+	font-size: 2rem;
 }
 .media-button-img {
 	height: 100px;
+}
+
+/* ----------- Cosas de colores y fuentes ----------- */
+body {
+	background-color: #002c5c;
+	color: #c1e8e8;
+}
+a {
+	text-decoration: none;
+}
+h1, h2 {
+	font-family: "Lora";
+}
+h1 {
+	transform: scale(1.1);
+}
+.logo-rack-img{
+	border-radius: 15px;
+	padding: 5px;
+	background-color: #c5e3e3;
+}
+.media-button {
+	font-family: "Rajdhani";
+	font-size: 3rem;
 }
