@@ -32,7 +32,7 @@ h2 {
 	gap: 30px;
 }
 .media-button {
-	padding-inline: 20px;
+	padding: 15px;
 	outline: solid #002c5c;
 	display: grid;
 	grid-template-columns: 25% 1fr;
@@ -40,11 +40,12 @@ h2 {
 	border-radius: 100vmax;
 	box-shadow: 10px 10px hsl(0, 0%, 28%);
 	background-color: azure;
+	font-size: 2em;
 }
 .media-button:hover{
 	transform: translate(7px, 7px);
 	box-shadow: 3px 3px hsl(0, 0%, 28%);
-	font-size: 2rem;
+	font-size: 1.5em;
 }
 .media-button-img {
 	height: 100px;
@@ -71,5 +72,5 @@ h1 {
 }
 .media-button {
 	font-family: "Rajdhani";
-	font-size: 36pt;
+	font-weight: 600;
 }
