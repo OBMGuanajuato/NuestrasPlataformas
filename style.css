@@ -1,12 +1,11 @@
 h1 {
 	text-align: center;
-	margin-top: 7vh;
 }
+
 h2 {
 	text-align: center;
 	margin-bottom: 0;
 }
-
 
 .logo-rack {
 	display: flex;
@@ -14,15 +13,16 @@ h2 {
 	align-items: center;
 	height: 100px;
 }
+
 .logo-rack-img {
 	width: 50px;
 	box-shadow: 5px 5px hsl(0, 0%, 28%);
 }
+
 .logo-rack-img:hover{
 	transform: translate(3px, 3px);
 	box-shadow: 2px 2px hsl(0, 0%, 28%);
 }
-
 
 .media-button-rack {
 	width: 80vw;
@@ -31,6 +31,7 @@ h2 {
 	flex-direction: column;
 	gap: 30px;
 }
+
 .media-button {
 	padding: 15px;
 	outline: solid #002c5c;
@@ -42,13 +43,15 @@ h2 {
 	background-color: azure;
 	font-size: 2em;
 }
+
 .media-button:hover{
 	transform: translate(7px, 7px);
 	box-shadow: 3px 3px hsl(0, 0%, 28%);
 	font-size: 1.5em;
 }
+
 .media-button-img {
-	height: 100px;
+	width: 50%;
 }
 
 /* ----------- Cosas de colores y fuentes ----------- */
@@ -56,20 +59,21 @@ body {
 	background-color: #002c5c;
 	color: #c1e8e8;
 }
+
 a {
 	text-decoration: none;
 }
+
 h1, h2 {
 	font-family: "Lora";
 }
-h1 {
-	transform: scale(1.1);
-}
+
 .logo-rack-img{
 	border-radius: 15px;
 	padding: 5px;
 	background-color: #c5e3e3;
 }
+
 .media-button {
 	font-family: "Rajdhani";
 	font-weight: 600;
